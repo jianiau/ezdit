@@ -1,0 +1,30 @@
+set syndb(lsort,lsort,type) "TCLCMD"
+set syndb(lsort,lsort,hint) "lsort ?options? list "
+set syndb(lsort,lsort,arglist) [list -ascii -command -decreasing -dictionary -increasing -index -integer -real -unique]
+set syndb(lsort,-ascii,type) "TCLARG"
+set syndb(lsort,-ascii,hint)  ""
+set syndb(lsort,-ascii,arglist)  [list] 
+set syndb(lsort,-command,type) "TCLARG"
+set syndb(lsort,-command,hint)  ""
+set syndb(lsort,-command,arglist)  [list] 
+set syndb(lsort,-decreasing,type) "TCLARG"
+set syndb(lsort,-decreasing,hint)  ""
+set syndb(lsort,-decreasing,arglist)  [list] 
+set syndb(lsort,-dictionary,type) "TCLARG"
+set syndb(lsort,-dictionary,hint)  ""
+set syndb(lsort,-dictionary,arglist)  [list] 
+set syndb(lsort,-increasing,type) "TCLARG"
+set syndb(lsort,-increasing,hint)  ""
+set syndb(lsort,-increasing,arglist)  [list] 
+set syndb(lsort,-index,type) "TCLARG"
+set syndb(lsort,-index,hint)  ""
+set syndb(lsort,-index,arglist)  [list] 
+set syndb(lsort,-integer,type) "TCLARG"
+set syndb(lsort,-integer,hint)  ""
+set syndb(lsort,-integer,arglist)  [list] 
+set syndb(lsort,-real,type) "TCLARG"
+set syndb(lsort,-real,hint)  ""
+set syndb(lsort,-real,arglist)  [list] 
+set syndb(lsort,-unique,type) "TCLARG"
+set syndb(lsort,-unique,hint)  ""
+set syndb(lsort,-unique,arglist)  [list] 

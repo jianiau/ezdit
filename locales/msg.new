@@ -1,0 +1,1136 @@
+
+	# ./src/about.tcl
+	::msgcat::mcset en_us "About" "About"
+	::msgcat::mcset en_us "Web Site" "Web Site"
+	::msgcat::mcset en_us "Close" "Close"
+	::msgcat::mcset en_us "Copyright (C) 2009 - %s Yuan-Liang Tai" "Copyright (C) 2009 - %s Yuan-Liang Tai"
+	::msgcat::mcset en_us "%s Updates" "%s Updates"
+	::msgcat::mcset en_us "Message:" "Message:"
+	::msgcat::mcset en_us "Automatic check on startup." "Automatic check on startup."
+	::msgcat::mcset en_us "Check" "Check"
+	::msgcat::mcset en_us "Checking for Updates ..." "Checking for Updates ..."
+	::msgcat::mcset en_us "These are no new updates available." "These are no new updates available."
+	::msgcat::mcset en_us "Can't connect to update server." "Can't connect to update server."
+	::msgcat::mcset en_us "Version %s changelog : " "Version %s changelog : "
+	::msgcat::mcset en_us "These is new %s available!!" "These is new %s available!!"
+	::msgcat::mcset en_us "Web Site: %s" "Web Site: %s"
+	::msgcat::mcset en_us "Download latest version of the %s ." "Download latest version of the %s ."
+
+	# ./src/cbs.tcl
+	::msgcat::mcset en_us "Outline" "Outline"
+	::msgcat::mcset en_us "Copy '%s'" "Copy '%s'"
+
+	# ./src/layout.tcl
+	::msgcat::mcset en_us "Hide" "Hide"
+	::msgcat::mcset en_us "Move Up" "Move Up"
+	::msgcat::mcset en_us "Move Down" "Move Down"
+	::msgcat::mcset en_us "Move to Right Frame" "Move to Right Frame"
+	::msgcat::mcset en_us "Move to Bottom Frame" "Move to Bottom Frame"
+	::msgcat::mcset en_us "Move to Left Frame" "Move to Left Frame"
+	::msgcat::mcset en_us "Move Forward" "Move Forward"
+	::msgcat::mcset en_us "Move Backward" "Move Backward"
+
+	# ./src/main.tcl
+	::msgcat::mcset en_us "Information" "Information"
+	::msgcat::mcset en_us "Please restart %s to apply settings." "Please restart %s to apply settings."
+	::msgcat::mcset en_us "Themes" "Themes"
+	::msgcat::mcset en_us "Choose %s Font" "Choose %s Font"
+	::msgcat::mcset en_us "Ok" "Ok"
+
+	# ./src/mbar.tcl
+	::msgcat::mcset en_us "Font" "Font"
+	::msgcat::mcset en_us "Increase Size" "Increase Size"
+	::msgcat::mcset en_us "Descrease Size" "Descrease Size"
+	::msgcat::mcset en_us "Details..." "Details..."
+	::msgcat::mcset en_us "Adjust Font" "Adjust Font"
+	::msgcat::mcset en_us "Menu Font..." "Menu Font..."
+	::msgcat::mcset en_us "Small Font..." "Small Font..."
+	::msgcat::mcset en_us "Middle Font..." "Middle Font..."
+	::msgcat::mcset en_us "Large Font..." "Large Font..."
+	::msgcat::mcset en_us "Undo" "Undo"
+	::msgcat::mcset en_us "Redo" "Redo"
+	::msgcat::mcset en_us "Cut" "Cut"
+	::msgcat::mcset en_us "Copy" "Copy"
+	::msgcat::mcset en_us "Paste" "Paste"
+	::msgcat::mcset en_us "Delete" "Delete"
+	::msgcat::mcset en_us "Select All" "Select All"
+	::msgcat::mcset en_us "Line Operations" "Line Operations"
+	::msgcat::mcset en_us "Cut Current Line" "Cut Current Line"
+	::msgcat::mcset en_us "Copy Current Line" "Copy Current Line"
+	::msgcat::mcset en_us "Paste As New Line" "Paste As New Line"
+	::msgcat::mcset en_us "Move Down Current Line" "Move Down Current Line"
+	::msgcat::mcset en_us "Move Up Current Line" "Move Up Current Line"
+	::msgcat::mcset en_us "Trim Trailing Space" "Trim Trailing Space"
+	::msgcat::mcset en_us "Marks" "Marks"
+	::msgcat::mcset en_us "Toggle Mark" "Toggle Mark"
+	::msgcat::mcset en_us "Previous Mark" "Previous Mark"
+	::msgcat::mcset en_us "Next Mark" "Next Mark"
+	::msgcat::mcset en_us "Clear All Marks" "Clear All Marks"
+	::msgcat::mcset en_us "Goto Line..." "Goto Line..."
+	::msgcat::mcset en_us "Find/Replace" "Find/Replace"
+	::msgcat::mcset en_us "Find In Files..." "Find In Files..."
+	::msgcat::mcset en_us "Jump to Matching Brace" "Jump to Matching Brace"
+	::msgcat::mcset en_us "Select to Matching Brace" "Select to Matching Brace"
+	::msgcat::mcset en_us "Increase Line Indent" "Increase Line Indent"
+	::msgcat::mcset en_us "Decrease Line Indent" "Decrease Line Indent"
+	::msgcat::mcset en_us "Add Block Comment" "Add Block Comment"
+	::msgcat::mcset en_us "Remove Block Comment" "Remove Block Comment"
+	::msgcat::mcset en_us "New File" "New File"
+	::msgcat::mcset en_us "Open File..." "Open File..."
+	::msgcat::mcset en_us "Save" "Save"
+	::msgcat::mcset en_us "Save As..." "Save As..."
+	::msgcat::mcset en_us "Save All" "Save All"
+	::msgcat::mcset en_us "Close All" "Close All"
+	::msgcat::mcset en_us "Recent Files" "Recent Files"
+	::msgcat::mcset en_us "Recent Projects" "Recent Projects"
+	::msgcat::mcset en_us "Quit" "Quit"
+	::msgcat::mcset en_us "Project..." "Project..."
+	::msgcat::mcset en_us "Check for updates..." "Check for updates..."
+	::msgcat::mcset en_us "About..." "About..."
+	::msgcat::mcset en_us "Languages" "Languages"
+	::msgcat::mcset en_us "Plugins" "Plugins"
+	::msgcat::mcset en_us "Editor" "Editor"
+	::msgcat::mcset en_us "Console" "Console"
+	::msgcat::mcset en_us "User Interface" "User Interface"
+	::msgcat::mcset en_us "Default File Format" "Default File Format"
+	::msgcat::mcset en_us "Default Encoding" "Default Encoding"
+	::msgcat::mcset en_us "Coding Assistant" "Coding Assistant"
+	::msgcat::mcset en_us "Syntax Highlighting" "Syntax Highlighting"
+	::msgcat::mcset en_us "Syntax Hint" "Syntax Hint"
+	::msgcat::mcset en_us "Code Outline" "Code Outline"
+	::msgcat::mcset en_us "Sort Symbol" "Sort Symbol"
+	::msgcat::mcset en_us "All Projects" "All Projects"
+	::msgcat::mcset en_us "Active Project" "Active Project"
+	::msgcat::mcset en_us "View" "View"
+	::msgcat::mcset en_us "New Project..." "New Project..."
+	::msgcat::mcset en_us "Open Project..." "Open Project..."
+	::msgcat::mcset en_us "Close Project" "Close Project"
+	::msgcat::mcset en_us "Sort Projects" "Sort Projects"
+	::msgcat::mcset en_us "Collapse All" "Collapse All"
+	::msgcat::mcset en_us "Run Command..." "Run Command..."
+	::msgcat::mcset en_us "Recent Commands" "Recent Commands"
+	::msgcat::mcset en_us "Kill Running Command" "Kill Running Command"
+	::msgcat::mcset en_us "File" "File"
+	::msgcat::mcset en_us "Edit" "Edit"
+	::msgcat::mcset en_us "Project" "Project"
+	::msgcat::mcset en_us "Tools" "Tools"
+	::msgcat::mcset en_us "Options" "Options"
+	::msgcat::mcset en_us "Window" "Window"
+	::msgcat::mcset en_us "Help" "Help"
+	::msgcat::mcset en_us "Panes" "Panes"
+	::msgcat::mcset en_us "Left Frame" "Left Frame"
+	::msgcat::mcset en_us "Right Frame" "Right Frame"
+	::msgcat::mcset en_us "Bottom Frame" "Bottom Frame"
+	::msgcat::mcset en_us "Line Numbers" "Line Numbers"
+	::msgcat::mcset en_us "Ctrl+w" "Ctrl+w"
+	::msgcat::mcset en_us "Next File" "Next File"
+	::msgcat::mcset en_us "Ctrl+Right" "Ctrl+Right"
+	::msgcat::mcset en_us "Previous File" "Previous File"
+	::msgcat::mcset en_us "Ctrl+Left" "Ctrl+Left"
+
+	# ./src/nbe.tcl
+	::msgcat::mcset en_us "Question" "Question"
+	::msgcat::mcset en_us "Save changee to %s ?" "Save changee to %s ?"
+	::msgcat::mcset en_us "Choose Font" "Choose Font"
+	::msgcat::mcset en_us "View Line Numbers" "View Line Numbers"
+	::msgcat::mcset en_us "Tab Width" "Tab Width"
+	::msgcat::mcset en_us "Ctrl++" "Ctrl++"
+	::msgcat::mcset en_us "Ctrl+-" "Ctrl+-"
+	::msgcat::mcset en_us "Asia" "Asia"
+	::msgcat::mcset en_us "Eastern Europe" "Eastern Europe"
+	::msgcat::mcset en_us "Middle East" "Middle East"
+	::msgcat::mcset en_us "Western Europe" "Western Europe"
+	::msgcat::mcset en_us "Clear" "Clear"
+	::msgcat::mcset en_us "Open File" "Open File"
+	::msgcat::mcset en_us "Warning" "Warning"
+	::msgcat::mcset en_us "'%s' has been delete from the file system. Save it?" "'%s' has been delete from the file system. Save it?"
+	::msgcat::mcset en_us "Warring" "Warring"
+	::msgcat::mcset en_us "'%s' has been modified. Reload file ?" "'%s' has been modified. Reload file ?"
+	::msgcat::mcset en_us "Please select the files you want to save" "Please select the files you want to save"
+	::msgcat::mcset en_us "Do Not Save" "Do Not Save"
+	::msgcat::mcset en_us "Cancel" "Cancel"
+	::msgcat::mcset en_us "Clear All" "Clear All"
+
+	# ./src/nbo.tcl
+	::msgcat::mcset en_us "Notes" "Notes"
+
+	# ./src/pmgr.tcl
+	::msgcat::mcset en_us "Projects" "Projects"
+	::msgcat::mcset en_us "Add File (%s)" "Add File (%s)"
+	::msgcat::mcset en_us "'%s' already exists, would you like to replace the existing file?" "'%s' already exists, would you like to replace the existing file?"
+	::msgcat::mcset en_us "Are you sure, you want to close '%s' project ?" "Are you sure, you want to close '%s' project ?"
+	::msgcat::mcset en_us "Copied %s" "Copied %s"
+	::msgcat::mcset en_us "Cut %s" "Cut %s"
+	::msgcat::mcset en_us "Are you sure you want to delete '%s' ?" "Are you sure you want to delete '%s' ?"
+	::msgcat::mcset en_us "Are you sure you want to delete the Project (%s)?" "Are you sure you want to delete the Project (%s)?"
+	::msgcat::mcset en_us "Folder" "Folder"
+	::msgcat::mcset en_us "Text File" "Text File"
+	::msgcat::mcset en_us "Existing File..." "Existing File..."
+	::msgcat::mcset en_us "Open Project" "Open Project"
+	::msgcat::mcset en_us "Pasted %s" "Pasted %s"
+	::msgcat::mcset en_us "The '%s' already exists in the directory. What do you want to do?" "The '%s' already exists in the directory. What do you want to do?"
+	::msgcat::mcset en_us "Rename:" "Rename:"
+	::msgcat::mcset en_us "Rename" "Rename"
+	::msgcat::mcset en_us "Replace" "Replace"
+	::msgcat::mcset en_us "Error" "Error"
+	::msgcat::mcset en_us "The '%s' already exists in the directory." "The '%s' already exists in the directory."
+	::msgcat::mcset en_us "File name already exists." "File name already exists."
+	::msgcat::mcset en_us "The '%s' already delete from the filesystem." "The '%s' already delete from the filesystem."
+	::msgcat::mcset en_us "Add" "Add"
+	::msgcat::mcset en_us "Move to Top" "Move to Top"
+	::msgcat::mcset en_us "Move to Bottom" "Move to Bottom"
+	::msgcat::mcset en_us "Make Active" "Make Active"
+	::msgcat::mcset en_us "Arrange Project" "Arrange Project"
+	::msgcat::mcset en_us "Refresh" "Refresh"
+	::msgcat::mcset en_us "New" "New"
+	::msgcat::mcset en_us "Templates:" "Templates:"
+	::msgcat::mcset en_us "New Project" "New Project"
+	::msgcat::mcset en_us "New Project - %s" "New Project - %s"
+	::msgcat::mcset en_us "Project Name:" "Project Name:"
+	::msgcat::mcset en_us "Workspace:" "Workspace:"
+	::msgcat::mcset en_us "Browse" "Browse"
+	::msgcat::mcset en_us "Choose Directory" "Choose Directory"
+	::msgcat::mcset en_us "%s already exists! Please change the project name." "%s already exists! Please change the project name."
+
+	# ./src/run.tcl
+	::msgcat::mcset en_us "None" "None"
+	::msgcat::mcset en_us "Auto Clear before Run Command" "Auto Clear before Run Command"
+	::msgcat::mcset en_us "Exit" "Exit"
+	::msgcat::mcset en_us "Run Command" "Run Command"
+	::msgcat::mcset en_us "Run" "Run"
+	::msgcat::mcset en_us "file path" "file path"
+	::msgcat::mcset en_us "directory path of file" "directory path of file"
+	::msgcat::mcset en_us "file base name" "file base name"
+	::msgcat::mcset en_us "directory base name of file" "directory base name of file"
+	::msgcat::mcset en_us "Hotkey:" "Hotkey:"
+	::msgcat::mcset en_us "Run:" "Run:"
+	::msgcat::mcset en_us "Browse..." "Browse..."
+	::msgcat::mcset en_us "Start in:" "Start in:"
+	::msgcat::mcset en_us "Choose Program" "Choose Program"
+	::msgcat::mcset en_us "Run Command : %s" "Run Command : %s"
+	::msgcat::mcset en_us "Can't change directory to %s" "Can't change directory to %s"
+
+	# ./src/sbar.tcl
+	::msgcat::mcset en_us "Ready" "Ready"
+	::msgcat::mcset en_us "Line: %s   Column: %s" "Line: %s   Column: %s"
+	::msgcat::mcset en_us "Lines: %s" "Lines: %s"
+	::msgcat::mcset en_us "Format: %s" "Format: %s"
+	::msgcat::mcset en_us "Encoding: %s" "Encoding: %s"
+
+	# ./src/tbar.tcl
+	::msgcat::mcset en_us "The pattern was not found." "The pattern was not found."
+	::msgcat::mcset en_us "'%s' occurrence(s) were found." "'%s' occurrence(s) were found."
+	::msgcat::mcset en_us "Left-Click : New File%sRight-Click : Show Menu" "Left-Click : New File%sRight-Click : Show Menu"
+	::msgcat::mcset en_us "Left-Click : Open File...%sRight-Click : Show Menu" "Left-Click : Open File...%sRight-Click : Show Menu"
+	::msgcat::mcset en_us "Save File" "Save File"
+	::msgcat::mcset en_us "Save All Files" "Save All Files"
+	::msgcat::mcset en_us "Find/Replace..." "Find/Replace..."
+	::msgcat::mcset en_us "Left-Click : Run Last Command%sRight-Click : Show Menu" "Left-Click : Run Last Command%sRight-Click : Show Menu"
+	::msgcat::mcset en_us "Find : " "Find : "
+	::msgcat::mcset en_us "Find In Current Document" "Find In Current Document"
+	::msgcat::mcset en_us "Find" "Find"
+
+	# ./src/tkcon.tcl
+
+	# ./src/wfind.tcl
+	::msgcat::mcset en_us "Find in files" "Find in files"
+	::msgcat::mcset en_us "Keyword:" "Keyword:"
+	::msgcat::mcset en_us "Start" "Start"
+	::msgcat::mcset en_us "Stop" "Stop"
+	::msgcat::mcset en_us "Filter:" "Filter:"
+	::msgcat::mcset en_us "Directory:" "Directory:"
+	::msgcat::mcset en_us "Case Sensitive" "Case Sensitive"
+	::msgcat::mcset en_us "Regular Expression" "Regular Expression"
+	::msgcat::mcset en_us "Search hidden files & folders" "Search hidden files & folders"
+	::msgcat::mcset en_us "Search directory not valid!" "Search directory not valid!"
+
+	# ./src/wnote.tcl
+	::msgcat::mcset en_us "All" "All"
+	::msgcat::mcset en_us "Apply" "Apply"
+	::msgcat::mcset en_us "Reset" "Reset"
+	::msgcat::mcset en_us "State" "State"
+	::msgcat::mcset en_us "Time" "Time"
+	::msgcat::mcset en_us "Description" "Description"
+	::msgcat::mcset en_us "Not Started" "Not Started"
+	::msgcat::mcset en_us "In Progress" "In Progress"
+	::msgcat::mcset en_us "Finished" "Finished"
+	::msgcat::mcset en_us "Add Item" "Add Item"
+	::msgcat::mcset en_us "Change State" "Change State"
+	::msgcat::mcset en_us "Delete Completed Items" "Delete Completed Items"
+	::msgcat::mcset en_us "Hide Completed Items" "Hide Completed Items"
+	::msgcat::mcset en_us "Are you sure you want to delete those items?" "Are you sure you want to delete those items?"
+	::msgcat::mcset en_us "Are you sure you want to delete this item ?" "Are you sure you want to delete this item ?"
+	::msgcat::mcset en_us "Are you sure you want to delete %s items?" "Are you sure you want to delete %s items?"
+
+	# ./src/lib/ceditor.tcl
+	::msgcat::mcset en_us "The operation will reload this file. Save it ?" "The operation will reload this file. Save it ?"
+	::msgcat::mcset en_us "Save as ..." "Save as ..."
+
+	# ./src/lib/pkgIndex.tcl
+
+	# ./src/lib/tooltip-1.4.2.tcl
+
+	# ./src/lib/autoscroll/autoscroll.tcl
+
+	# ./src/lib/autoscroll/pkgIndex.tcl
+
+	# ./src/lib/twidget/base.tcl
+
+	# ./src/lib/twidget/dialog.tcl
+	::msgcat::mcset en_us "Preview" "Preview"
+
+	# ./src/lib/twidget/editor.tcl
+	::msgcat::mcset en_us "Goto" "Goto"
+	::msgcat::mcset en_us "Line:" "Line:"
+	::msgcat::mcset en_us "Find And Replace" "Find And Replace"
+	::msgcat::mcset en_us "Find what:" "Find what:"
+	::msgcat::mcset en_us "Replace what:" "Replace what:"
+	::msgcat::mcset en_us "Regexp" "Regexp"
+	::msgcat::mcset en_us "Match case" "Match case"
+	::msgcat::mcset en_us "Multiline" "Multiline"
+	::msgcat::mcset en_us "Find Previous" "Find Previous"
+	::msgcat::mcset en_us "Find Next" "Find Next"
+	::msgcat::mcset en_us "Find All" "Find All"
+	::msgcat::mcset en_us "Replace All" "Replace All"
+	::msgcat::mcset en_us "'%s' occurrence(s) were replaced." "'%s' occurrence(s) were replaced."
+
+	# ./src/lib/twidget/hook.tcl
+
+	# ./src/lib/twidget/ibox.tcl
+
+	# ./src/lib/twidget/mkpkg.tcl
+
+	# ./src/lib/twidget/notebook.tcl
+	::msgcat::mcset en_us "List All Pages" "List All Pages"
+	::msgcat::mcset en_us "Next Page" "Next Page"
+	::msgcat::mcset en_us "Previous Page" "Previous Page"
+
+	# ./src/lib/twidget/pkgIndex.tcl
+
+	# ./src/lib/twidget/rc.tcl
+
+	# ./src/lib/twidget/toolbar.tcl
+
+	# ./src/lib/twidget/treeview.tcl
+
+	# ./src/lib/twidget/twidget.tcl
+
+	# ./src/lib/twidget/test/test-dialog.tcl
+
+	# ./src/lib/twidget/test/test-editor.tcl
+
+	# ./src/lib/twidget/test/test-hook.tcl
+
+	# ./src/lib/twidget/test/test-ibox.tcl
+
+	# ./src/lib/twidget/test/test-notebook.tcl
+
+	# ./src/lib/twidget/test/test-rc.tcl
+
+	# ./src/lib/twidget/test/test-toolbar.tcl
+
+	# ./src/lib/twidget/test/test-treeview.tcl
+
+	# ./src/lib_darwin/treectrl2.2.9/filelist-bindings.tcl
+
+	# ./src/lib_darwin/treectrl2.2.9/pkgIndex.tcl
+
+	# ./src/lib_darwin/treectrl2.2.9/treectrl.tcl
+
+	# ./src/lib_windows/tkdnd1.0/pkgIndex.tcl
+
+	# ./src/lib_windows/tkdnd1.0/tkdnd.tcl
+
+	# ./src/lib_windows/treectrl2.2.9/filelist-bindings.tcl
+
+	# ./src/lib_windows/treectrl2.2.9/pkgIndex.tcl
+
+	# ./src/lib_windows/treectrl2.2.9/treectrl.tcl
+
+	# ./src/lib_windows/twapi/accounts.tcl
+
+	# ./src/lib_windows/twapi/clipboard.tcl
+
+	# ./src/lib_windows/twapi/com.tcl
+
+	# ./src/lib_windows/twapi/console.tcl
+
+	# ./src/lib_windows/twapi/crypto.tcl
+
+	# ./src/lib_windows/twapi/desktop.tcl
+
+	# ./src/lib_windows/twapi/device.tcl
+
+	# ./src/lib_windows/twapi/disk.tcl
+
+	# ./src/lib_windows/twapi/eventlog.tcl
+
+	# ./src/lib_windows/twapi/msi.tcl
+
+	# ./src/lib_windows/twapi/mstask.tcl
+
+	# ./src/lib_windows/twapi/network.tcl
+
+	# ./src/lib_windows/twapi/nls.tcl
+
+	# ./src/lib_windows/twapi/osinfo.tcl
+
+	# ./src/lib_windows/twapi/pdh.tcl
+
+	# ./src/lib_windows/twapi/pkgIndex.tcl
+
+	# ./src/lib_windows/twapi/power.tcl
+
+	# ./src/lib_windows/twapi/printer.tcl
+
+	# ./src/lib_windows/twapi/process.tcl
+
+	# ./src/lib_windows/twapi/process2.tcl
+
+	# ./src/lib_windows/twapi/security.tcl
+
+	# ./src/lib_windows/twapi/services.tcl
+
+	# ./src/lib_windows/twapi/share.tcl
+
+	# ./src/lib_windows/twapi/shell.tcl
+
+	# ./src/lib_windows/twapi/synch.tcl
+
+	# ./src/lib_windows/twapi/twapi.tcl
+
+	# ./src/lib_windows/twapi/twapi_buildinfo.tcl
+
+	# ./src/lib_windows/twapi/twapi_version.tcl
+
+	# ./src/lib_windows/twapi/ui.tcl
+
+	# ./src/lib_windows/twapi/tests/all.tcl
+
+	# ./src/lib_windows/twapi/tests/testutil.tcl
+
+	# ./src/lib_linux/dbus-tcl0.8/pkgIndex.tcl
+
+	# ./src/lib_linux/tkdnd1.0/pkgIndex.tcl
+
+	# ./src/lib_linux/tkdnd1.0/tkdnd.tcl
+
+	# ./src/lib_linux/treectrl2.2.8/filelist-bindings.tcl
+
+	# ./src/lib_linux/treectrl2.2.8/pkgIndex.tcl
+
+	# ./src/lib_linux/treectrl2.2.8/treectrl.tcl
+
+	# ./src/plugins/plugin.tcl
+
+	# ./src/plugins/c/cceditor.tcl
+
+	# ./src/plugins/c/init.tcl
+	::msgcat::mcset en_us "C Support" "C Support"
+
+	# ./src/plugins/c/syndb.tcl
+
+	# ./src/plugins/nagelfar/init.tcl
+	::msgcat::mcset en_us "Nagelfar" "Nagelfar"
+
+	# ./src/plugins/nagelfar/main.tcl
+	::msgcat::mcset en_us "Done." "Done."
+	::msgcat::mcset en_us "Check Syntax (Nagelfar)" "Check Syntax (Nagelfar)"
+
+	# ./src/plugins/nagelfar/nagelfar.tcl
+
+	# ./src/plugins/nagelfar/syntaxdb.tcl
+
+	# ./src/plugins/nagelfar/syntaxdb84.tcl
+
+	# ./src/plugins/nagelfar/syntaxdb86.tcl
+
+	# ./src/plugins/_ezsdx/init.tcl
+	::msgcat::mcset en_us "EzSDX" "EzSDX"
+	::msgcat::mcset en_us "Output can't empty!!" "Output can't empty!!"
+	::msgcat::mcset en_us "Successed!!" "Successed!!"
+	::msgcat::mcset en_us "Wrap File" "Wrap File"
+	::msgcat::mcset en_us "Choose A File" "Choose A File"
+	::msgcat::mcset en_us "Wrap Project" "Wrap Project"
+	::msgcat::mcset en_us "Choose A Project" "Choose A Project"
+	::msgcat::mcset en_us "Output" "Output"
+	::msgcat::mcset en_us "Save To?" "Save To?"
+	::msgcat::mcset en_us "Command" "Command"
+	::msgcat::mcset en_us "Tclkit" "Tclkit"
+	::msgcat::mcset en_us "Where is your Tclkit?" "Where is your Tclkit?"
+	::msgcat::mcset en_us "SDX" "SDX"
+	::msgcat::mcset en_us "Where is your SDX?" "Where is your SDX?"
+	::msgcat::mcset en_us "Do not compress files added to starkit" "Do not compress files added to starkit"
+	::msgcat::mcset en_us "Allow modifications (must be single writer)" "Allow modifications (must be single writer)"
+	::msgcat::mcset en_us "Include Runtime (Starpack)" "Include Runtime (Starpack)"
+	::msgcat::mcset en_us "Command:" "Command:"
+
+	# ./src/plugins/_eztools/init.tcl
+	::msgcat::mcset en_us "Color Picker" "Color Picker"
+
+	# ./src/plugins/_tcl/db.tcl
+
+	# ./src/plugins/_tcl/db_build.tcl
+
+	# ./src/plugins/_tcl/init.tcl
+	::msgcat::mcset en_us "Tcl Support" "Tcl Support"
+
+	# ./src/plugins/_tcl/syndb.tcl
+	::msgcat::mcset en_us "Choose  Font" "Choose  Font"
+	::msgcat::mcset en_us "Choose Cursor" "Choose Cursor"
+
+	# ./src/plugins/_tcl/tcleditor.tcl
+	::msgcat::mcset en_us "Highlight" "Highlight"
+	::msgcat::mcset en_us "First Line" "First Line"
+	::msgcat::mcset en_us "Last Line" "Last Line"
+
+	# ./src/plugins/_tcl/tcl/abs.tcl
+
+	# ./src/plugins/_tcl/tcl/acos.tcl
+
+	# ./src/plugins/_tcl/tcl/after.tcl
+
+	# ./src/plugins/_tcl/tcl/append.tcl
+
+	# ./src/plugins/_tcl/tcl/apply.tcl
+
+	# ./src/plugins/_tcl/tcl/array.tcl
+
+	# ./src/plugins/_tcl/tcl/asin.tcl
+
+	# ./src/plugins/_tcl/tcl/atan.tcl
+
+	# ./src/plugins/_tcl/tcl/atan2.tcl
+
+	# ./src/plugins/_tcl/tcl/auto_execok.tcl
+
+	# ./src/plugins/_tcl/tcl/auto_load.tcl
+
+	# ./src/plugins/_tcl/tcl/auto_mkindex.tcl
+
+	# ./src/plugins/_tcl/tcl/auto_mkindex_old.tcl
+
+	# ./src/plugins/_tcl/tcl/auto_qualify.tcl
+
+	# ./src/plugins/_tcl/tcl/auto_reset.tcl
+
+	# ./src/plugins/_tcl/tcl/bgerror.tcl
+
+	# ./src/plugins/_tcl/tcl/binary.tcl
+
+	# ./src/plugins/_tcl/tcl/bool.tcl
+
+	# ./src/plugins/_tcl/tcl/break.tcl
+
+	# ./src/plugins/_tcl/tcl/catch.tcl
+
+	# ./src/plugins/_tcl/tcl/cd.tcl
+
+	# ./src/plugins/_tcl/tcl/ceil.tcl
+
+	# ./src/plugins/_tcl/tcl/chan.tcl
+
+	# ./src/plugins/_tcl/tcl/class.tcl
+
+	# ./src/plugins/_tcl/tcl/clock.tcl
+
+	# ./src/plugins/_tcl/tcl/close.tcl
+
+	# ./src/plugins/_tcl/tcl/concat.tcl
+
+	# ./src/plugins/_tcl/tcl/constructor.tcl
+
+	# ./src/plugins/_tcl/tcl/continue.tcl
+
+	# ./src/plugins/_tcl/tcl/cos.tcl
+
+	# ./src/plugins/_tcl/tcl/cosh.tcl
+
+	# ./src/plugins/_tcl/tcl/dde.tcl
+
+	# ./src/plugins/_tcl/tcl/deletemethod.tcl
+
+	# ./src/plugins/_tcl/tcl/destructor.tcl
+
+	# ./src/plugins/_tcl/tcl/dict.tcl
+
+	# ./src/plugins/_tcl/tcl/double.tcl
+
+	# ./src/plugins/_tcl/tcl/encoding.tcl
+
+	# ./src/plugins/_tcl/tcl/entier.tcl
+
+	# ./src/plugins/_tcl/tcl/eof.tcl
+
+	# ./src/plugins/_tcl/tcl/error.tcl
+
+	# ./src/plugins/_tcl/tcl/eval.tcl
+
+	# ./src/plugins/_tcl/tcl/exec.tcl
+
+	# ./src/plugins/_tcl/tcl/exit.tcl
+
+	# ./src/plugins/_tcl/tcl/exp.tcl
+
+	# ./src/plugins/_tcl/tcl/export.tcl
+
+	# ./src/plugins/_tcl/tcl/expr.tcl
+
+	# ./src/plugins/_tcl/tcl/fblocked.tcl
+
+	# ./src/plugins/_tcl/tcl/fconfigure.tcl
+
+	# ./src/plugins/_tcl/tcl/fcopy.tcl
+
+	# ./src/plugins/_tcl/tcl/file.tcl
+
+	# ./src/plugins/_tcl/tcl/fileevent.tcl
+
+	# ./src/plugins/_tcl/tcl/filename.tcl
+
+	# ./src/plugins/_tcl/tcl/filter.tcl
+
+	# ./src/plugins/_tcl/tcl/floor.tcl
+
+	# ./src/plugins/_tcl/tcl/flush.tcl
+
+	# ./src/plugins/_tcl/tcl/fmod.tcl
+
+	# ./src/plugins/_tcl/tcl/for.tcl
+
+	# ./src/plugins/_tcl/tcl/foreach.tcl
+
+	# ./src/plugins/_tcl/tcl/format.tcl
+
+	# ./src/plugins/_tcl/tcl/forward.tcl
+
+	# ./src/plugins/_tcl/tcl/gets.tcl
+
+	# ./src/plugins/_tcl/tcl/glob.tcl
+
+	# ./src/plugins/_tcl/tcl/global.tcl
+
+	# ./src/plugins/_tcl/tcl/history.tcl
+
+	# ./src/plugins/_tcl/tcl/httpcleanup.tcl
+
+	# ./src/plugins/_tcl/tcl/httpcode.tcl
+
+	# ./src/plugins/_tcl/tcl/httpconfig.tcl
+
+	# ./src/plugins/_tcl/tcl/httpdata.tcl
+
+	# ./src/plugins/_tcl/tcl/httperror.tcl
+
+	# ./src/plugins/_tcl/tcl/httpformatQuery.tcl
+
+	# ./src/plugins/_tcl/tcl/httpgeturl.tcl
+
+	# ./src/plugins/_tcl/tcl/httpmeta.tcl
+
+	# ./src/plugins/_tcl/tcl/httpncode.tcl
+
+	# ./src/plugins/_tcl/tcl/httpregister.tcl
+
+	# ./src/plugins/_tcl/tcl/httpreset.tcl
+
+	# ./src/plugins/_tcl/tcl/httpsize.tcl
+
+	# ./src/plugins/_tcl/tcl/httpstatus.tcl
+
+	# ./src/plugins/_tcl/tcl/httpunregister.tcl
+
+	# ./src/plugins/_tcl/tcl/httpwait.tcl
+
+	# ./src/plugins/_tcl/tcl/hypot.tcl
+
+	# ./src/plugins/_tcl/tcl/if.tcl
+
+	# ./src/plugins/_tcl/tcl/incr.tcl
+
+	# ./src/plugins/_tcl/tcl/info.tcl
+
+	# ./src/plugins/_tcl/tcl/int.tcl
+
+	# ./src/plugins/_tcl/tcl/interp.tcl
+
+	# ./src/plugins/_tcl/tcl/isqrt.tcl
+
+	# ./src/plugins/_tcl/tcl/join.tcl
+
+	# ./src/plugins/_tcl/tcl/lappend.tcl
+
+	# ./src/plugins/_tcl/tcl/lassign.tcl
+
+	# ./src/plugins/_tcl/tcl/lindex.tcl
+
+	# ./src/plugins/_tcl/tcl/linsert.tcl
+
+	# ./src/plugins/_tcl/tcl/list.tcl
+
+	# ./src/plugins/_tcl/tcl/llength.tcl
+
+	# ./src/plugins/_tcl/tcl/load.tcl
+
+	# ./src/plugins/_tcl/tcl/log.tcl
+
+	# ./src/plugins/_tcl/tcl/log10.tcl
+
+	# ./src/plugins/_tcl/tcl/lrange.tcl
+
+	# ./src/plugins/_tcl/tcl/lrepeat.tcl
+
+	# ./src/plugins/_tcl/tcl/lreplace.tcl
+
+	# ./src/plugins/_tcl/tcl/lreverse.tcl
+
+	# ./src/plugins/_tcl/tcl/lsearch.tcl
+
+	# ./src/plugins/_tcl/tcl/lset.tcl
+
+	# ./src/plugins/_tcl/tcl/lsort.tcl
+
+	# ./src/plugins/_tcl/tcl/max.tcl
+
+	# ./src/plugins/_tcl/tcl/memory.tcl
+
+	# ./src/plugins/_tcl/tcl/method.tcl
+
+	# ./src/plugins/_tcl/tcl/min.tcl
+
+	# ./src/plugins/_tcl/tcl/mixin.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmc.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmcload.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmclocale.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmcmax.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmcmset.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmcreferences.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmcset.tcl
+
+	# ./src/plugins/_tcl/tcl/msgcatmcunknown.tcl
+
+	# ./src/plugins/_tcl/tcl/my.tcl
+
+	# ./src/plugins/_tcl/tcl/namespace.tcl
+
+	# ./src/plugins/_tcl/tcl/next.tcl
+
+	# ./src/plugins/_tcl/tcl/ooclass.tcl
+
+	# ./src/plugins/_tcl/tcl/oocopy.tcl
+
+	# ./src/plugins/_tcl/tcl/oodefine.tcl
+
+	# ./src/plugins/_tcl/tcl/ooobjdefine.tcl
+
+	# ./src/plugins/_tcl/tcl/ooobject.tcl
+
+	# ./src/plugins/_tcl/tcl/open.tcl
+
+	# ./src/plugins/_tcl/tcl/package.tcl
+
+	# ./src/plugins/_tcl/tcl/parray.tcl
+
+	# ./src/plugins/_tcl/tcl/pid.tcl
+
+	# ./src/plugins/_tcl/tcl/pkg.tcl
+
+	# ./src/plugins/_tcl/tcl/pkg_mkIndex.tcl
+
+	# ./src/plugins/_tcl/tcl/platformgeneric.tcl
+
+	# ./src/plugins/_tcl/tcl/platformidentify.tcl
+
+	# ./src/plugins/_tcl/tcl/platformpatterns.tcl
+
+	# ./src/plugins/_tcl/tcl/platformshellgeneric.tcl
+
+	# ./src/plugins/_tcl/tcl/platformshellidentify.tcl
+
+	# ./src/plugins/_tcl/tcl/platformshellplatform.tcl
+
+	# ./src/plugins/_tcl/tcl/pow.tcl
+
+	# ./src/plugins/_tcl/tcl/proc.tcl
+
+	# ./src/plugins/_tcl/tcl/puts.tcl
+
+	# ./src/plugins/_tcl/tcl/pwd.tcl
+
+	# ./src/plugins/_tcl/tcl/rand.tcl
+
+	# ./src/plugins/_tcl/tcl/read.tcl
+
+	# ./src/plugins/_tcl/tcl/refchan.tcl
+
+	# ./src/plugins/_tcl/tcl/regexp.tcl
+
+	# ./src/plugins/_tcl/tcl/registry.tcl
+
+	# ./src/plugins/_tcl/tcl/regsub.tcl
+
+	# ./src/plugins/_tcl/tcl/rename.tcl
+
+	# ./src/plugins/_tcl/tcl/renamemethod.tcl
+
+	# ./src/plugins/_tcl/tcl/resource.tcl
+
+	# ./src/plugins/_tcl/tcl/return.tcl
+
+	# ./src/plugins/_tcl/tcl/re_syntax.tcl
+
+	# ./src/plugins/_tcl/tcl/round.tcl
+
+	# ./src/plugins/_tcl/tcl/safeinterpAddToAccessPath.tcl
+
+	# ./src/plugins/_tcl/tcl/safeinterpConfigure.tcl
+
+	# ./src/plugins/_tcl/tcl/safeinterpCreate.tcl
+
+	# ./src/plugins/_tcl/tcl/safeinterpDelete.tcl
+
+	# ./src/plugins/_tcl/tcl/safeinterpFindInAccessPath.tcl
+
+	# ./src/plugins/_tcl/tcl/safeinterpInit.tcl
+
+	# ./src/plugins/_tcl/tcl/safesetLogCmd.tcl
+
+	# ./src/plugins/_tcl/tcl/scan.tcl
+
+	# ./src/plugins/_tcl/tcl/seek.tcl
+
+	# ./src/plugins/_tcl/tcl/self.tcl
+
+	# ./src/plugins/_tcl/tcl/set.tcl
+
+	# ./src/plugins/_tcl/tcl/sin.tcl
+
+	# ./src/plugins/_tcl/tcl/sinh.tcl
+
+	# ./src/plugins/_tcl/tcl/socket.tcl
+
+	# ./src/plugins/_tcl/tcl/source.tcl
+
+	# ./src/plugins/_tcl/tcl/split.tcl
+
+	# ./src/plugins/_tcl/tcl/sqrt.tcl
+
+	# ./src/plugins/_tcl/tcl/srand.tcl
+
+	# ./src/plugins/_tcl/tcl/string.tcl
+
+	# ./src/plugins/_tcl/tcl/subst.tcl
+
+	# ./src/plugins/_tcl/tcl/superclass.tcl
+
+	# ./src/plugins/_tcl/tcl/switch.tcl
+
+	# ./src/plugins/_tcl/tcl/tan.tcl
+
+	# ./src/plugins/_tcl/tcl/tanh.tcl
+
+	# ./src/plugins/_tcl/tcl/tclprefix.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestbytestring.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestcleanupTests.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestconfigure.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestcustomMatch.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestdebug.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltesterrorChannel.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltesterrorFile.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestinterpreter.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestlimitConstraints.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestloadFile.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestloadScript.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestloadTestedCommands.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestmakeDirectory.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestmakeFile.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestmatch.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestmatchDirectories.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestmatchFiles.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestnormalizeMsg.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestnormalizePath.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestoutputChannel.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestoutputFile.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestpreserveCore.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestremoveDirectory.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestremoveFile.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestrunAllTests.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestsingleProcess.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestskip.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestskipDirectories.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestskipFiles.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltesttemporaryDirectory.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltesttest.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltesttestConstraint.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltesttestsDirectory.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestverbose.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestviewFile.tcl
+
+	# ./src/plugins/_tcl/tcl/tcltestworkingDirectory.tcl
+
+	# ./src/plugins/_tcl/tcl/tcl_endOfWord.tcl
+
+	# ./src/plugins/_tcl/tcl/tcl_findLibrary.tcl
+
+	# ./src/plugins/_tcl/tcl/tcl_startOfNextWord.tcl
+
+	# ./src/plugins/_tcl/tcl/tcl_startOfPreviousWord.tcl
+
+	# ./src/plugins/_tcl/tcl/tcl_wordBreakAfter.tcl
+
+	# ./src/plugins/_tcl/tcl/tcl_wordBreakBefore.tcl
+
+	# ./src/plugins/_tcl/tcl/tell.tcl
+
+	# ./src/plugins/_tcl/tcl/throw.tcl
+
+	# ./src/plugins/_tcl/tcl/time.tcl
+
+	# ./src/plugins/_tcl/tcl/trace.tcl
+
+	# ./src/plugins/_tcl/tcl/try.tcl
+
+	# ./src/plugins/_tcl/tcl/unexport.tcl
+
+	# ./src/plugins/_tcl/tcl/unknown.tcl
+
+	# ./src/plugins/_tcl/tcl/unset.tcl
+
+	# ./src/plugins/_tcl/tcl/update.tcl
+
+	# ./src/plugins/_tcl/tcl/uplevel.tcl
+
+	# ./src/plugins/_tcl/tcl/upvar.tcl
+
+	# ./src/plugins/_tcl/tcl/variable.tcl
+
+	# ./src/plugins/_tcl/tcl/vwait.tcl
+
+	# ./src/plugins/_tcl/tcl/while.tcl
+
+	# ./src/plugins/_tcl/tcl/wide.tcl
+
+	# ./src/plugins/_tcl/tcl/zlib.tcl
+
+	# ./src/plugins/_tcl/tk/bell.tcl
+
+	# ./src/plugins/_tcl/tk/bind.tcl
+
+	# ./src/plugins/_tcl/tk/bindtags.tcl
+
+	# ./src/plugins/_tcl/tk/bitmap.tcl
+
+	# ./src/plugins/_tcl/tk/button.tcl
+
+	# ./src/plugins/_tcl/tk/canvas.tcl
+
+	# ./src/plugins/_tcl/tk/checkbutton.tcl
+
+	# ./src/plugins/_tcl/tk/clipboard.tcl
+
+	# ./src/plugins/_tcl/tk/console.tcl
+
+	# ./src/plugins/_tcl/tk/destroy.tcl
+
+	# ./src/plugins/_tcl/tk/entry.tcl
+
+	# ./src/plugins/_tcl/tk/event.tcl
+
+	# ./src/plugins/_tcl/tk/focus.tcl
+
+	# ./src/plugins/_tcl/tk/font.tcl
+
+	# ./src/plugins/_tcl/tk/frame.tcl
+
+	# ./src/plugins/_tcl/tk/grab.tcl
+
+	# ./src/plugins/_tcl/tk/grid.tcl
+
+	# ./src/plugins/_tcl/tk/image.tcl
+
+	# ./src/plugins/_tcl/tk/label.tcl
+
+	# ./src/plugins/_tcl/tk/labelframe.tcl
+
+	# ./src/plugins/_tcl/tk/listbox.tcl
+
+	# ./src/plugins/_tcl/tk/loadTk.tcl
+
+	# ./src/plugins/_tcl/tk/lower.tcl
+
+	# ./src/plugins/_tcl/tk/menu.tcl
+
+	# ./src/plugins/_tcl/tk/menubutton.tcl
+
+	# ./src/plugins/_tcl/tk/message.tcl
+
+	# ./src/plugins/_tcl/tk/option.tcl
+
+	# ./src/plugins/_tcl/tk/options.tcl
+
+	# ./src/plugins/_tcl/tk/pack.tcl
+
+	# ./src/plugins/_tcl/tk/panedwindow.tcl
+
+	# ./src/plugins/_tcl/tk/photo.tcl
+
+	# ./src/plugins/_tcl/tk/place.tcl
+
+	# ./src/plugins/_tcl/tk/radiobutton.tcl
+
+	# ./src/plugins/_tcl/tk/raise.tcl
+
+	# ./src/plugins/_tcl/tk/scale.tcl
+
+	# ./src/plugins/_tcl/tk/scrollbar.tcl
+
+	# ./src/plugins/_tcl/tk/selection.tcl
+
+	# ./src/plugins/_tcl/tk/send.tcl
+
+	# ./src/plugins/_tcl/tk/spinbox.tcl
+
+	# ./src/plugins/_tcl/tk/text.tcl
+
+	# ./src/plugins/_tcl/tk/tk.tcl
+
+	# ./src/plugins/_tcl/tk/tkerror.tcl
+
+	# ./src/plugins/_tcl/tk/tkwait.tcl
+
+	# ./src/plugins/_tcl/tk/tk_bisque.tcl
+
+	# ./src/plugins/_tcl/tk/tk_chooseColor.tcl
+
+	# ./src/plugins/_tcl/tk/tk_chooseDirectory.tcl
+
+	# ./src/plugins/_tcl/tk/tk_dialog.tcl
+
+	# ./src/plugins/_tcl/tk/tk_focusFollowsMouse.tcl
+
+	# ./src/plugins/_tcl/tk/tk_focusNext.tcl
+
+	# ./src/plugins/_tcl/tk/tk_focusPrev.tcl
+
+	# ./src/plugins/_tcl/tk/tk_getOpenFile.tcl
+
+	# ./src/plugins/_tcl/tk/tk_getSaveFile.tcl
+
+	# ./src/plugins/_tcl/tk/tk_menuSetFocus.tcl
+
+	# ./src/plugins/_tcl/tk/tk_messageBox.tcl
+
+	# ./src/plugins/_tcl/tk/tk_optionMenu.tcl
+
+	# ./src/plugins/_tcl/tk/tk_popup.tcl
+
+	# ./src/plugins/_tcl/tk/tk_setPalette.tcl
+
+	# ./src/plugins/_tcl/tk/tk_textCopy.tcl
+
+	# ./src/plugins/_tcl/tk/tk_textCut.tcl
+
+	# ./src/plugins/_tcl/tk/tk_textPaste.tcl
+
+	# ./src/plugins/_tcl/tk/toplevel.tcl
+
+	# ./src/plugins/_tcl/tk/ttkbutton.tcl
+
+	# ./src/plugins/_tcl/tk/ttkcheckbutton.tcl
+
+	# ./src/plugins/_tcl/tk/ttkcombobox.tcl
+
+	# ./src/plugins/_tcl/tk/ttkentry.tcl
+
+	# ./src/plugins/_tcl/tk/ttkframe.tcl
+
+	# ./src/plugins/_tcl/tk/ttkimage.tcl
+
+	# ./src/plugins/_tcl/tk/ttkintro.tcl
+
+	# ./src/plugins/_tcl/tk/ttklabel.tcl
+
+	# ./src/plugins/_tcl/tk/ttklabelframe.tcl
+
+	# ./src/plugins/_tcl/tk/ttkmenubutton.tcl
+
+	# ./src/plugins/_tcl/tk/ttknotebook.tcl
+
+	# ./src/plugins/_tcl/tk/ttkpanedwindow.tcl
+
+	# ./src/plugins/_tcl/tk/ttkprogressbar.tcl
+
+	# ./src/plugins/_tcl/tk/ttkradiobutton.tcl
+
+	# ./src/plugins/_tcl/tk/ttkscale.tcl
+
+	# ./src/plugins/_tcl/tk/ttkscrollbar.tcl
+
+	# ./src/plugins/_tcl/tk/ttkseparator.tcl
+
+	# ./src/plugins/_tcl/tk/ttksizegrip.tcl
+
+	# ./src/plugins/_tcl/tk/ttkstyle.tcl
+
+	# ./src/plugins/_tcl/tk/ttktreeview.tcl
+
+	# ./src/plugins/_tcl/tk/ttkwidget.tcl
+
+	# ./src/plugins/_tcl/tk/winfo.tcl
+
+	# ./src/plugins/_tcl/tk/wm.tcl
+
+	# ./src/templates/templ.tcl
+
+	# ./src/templates/files/tcl-script/init.tcl
+	::msgcat::mcset en_us "Tcl Script" "Tcl Script"
+
+	# ./src/templates/projects/empty/init.tcl
+	::msgcat::mcset en_us "Empty Project" "Empty Project"
+
+	# ./src/templates/projects/tcl/init.tcl
+	::msgcat::mcset en_us "Tcl Project" "Tcl Project"
+
+	# ./src/templates/projects/tcl/templ/main.tcl
