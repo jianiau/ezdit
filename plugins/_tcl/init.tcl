@@ -15,11 +15,11 @@ oo::objdefine $plugin {
 		
 		::tcltk::syndb_init $dir
 		
-		$::dApp::Obj(nbe) mime install [list .tcl .TCL]  ::dApp::ceditor::tcl
+		$::dApp::Obj(nbe) mime install [list .tcl .TCL .tm]  ::dApp::ceditor::tcl
 	}
 	method cleanup {} {
 		namespace delete ::tcltk
-		$::dApp::Obj(nbe) mime uninstall [list .tcl .TCL]  ::dApp::ceditor::tcl
+		$::dApp::Obj(nbe) mime uninstall [list .tcl .TCL .tm]  ::dApp::ceditor::tcl
 	}
 }
 
