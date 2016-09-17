@@ -1,4 +1,4 @@
-#!/usr/local/bin/wish
+#!/usr/bin/wish
 
 package require Tk
 package require msgcat
@@ -205,7 +205,12 @@ oo::class create ::dApp::main {
 
 		if {[string first "windows" $os] >= 0} {set os "windows"}
 
-		set lib [file join $appPath lib_$os]
+		set mach [string tolower $::tcl_platform(machine)]
+		switch -glob -- $mach {
+			intel -
+			i*86* { set mach x86 }
+		}
+		set lib [file join $appPath lib_$os $mach]
 		if {[file exists $lib]} {lappend ::auto_path $lib}
 
 		my Service_[string totitle $os]_Init
