@@ -53,6 +53,7 @@ package provide twidget::dialog  $::twidget::Priv(version)
 			if {$id == $opts(-default)} {
 				$btn configure -default active
 				bind $win <Return> [list  $btn invoke]
+				bind $win <KP_Enter> [list  $btn invoke]
 			}
 			pack $btn -side right -padx 3 -pady 3
 			incr cut
@@ -232,6 +233,7 @@ package provide twidget::dialog  $::twidget::Priv(version)
 		wm withdraw $win
 		wm state $win normal
 		
+		bind $win <Escape> "[self object] close -1"
 		if {$opts(-cancel)} {
 			wm protocol $win WM_DELETE_WINDOW   [list [self object] close -1]
 		} else {

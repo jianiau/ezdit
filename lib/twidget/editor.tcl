@@ -1760,7 +1760,7 @@ oo::class create $::twidget::Priv(prefix)::editor::gotobox {
 		
 		next $wpath\
 			-title [::msgcat::mc "Goto"]  \
-			-default cancel \
+			-default ok \
 			-cancel 1 \
 			-position auto \
 			-buttons [list \
@@ -1781,6 +1781,7 @@ oo::class create $::twidget::Priv(prefix)::editor::gotobox {
 		set txt [ttk::entry $fme.txt -textvariable [self namespace]::Priv(line)]
 		pack $lbl -side top -padx 2 -fill x -pady 2
 		pack $txt -side top -padx 2 -fill x -pady 2 -padx 2	
+		focus $txt
 	}
 	
 	method close {ret} {
@@ -1885,6 +1886,7 @@ oo::class create $::twidget::Priv(prefix)::editor::gotobox {
 		grid $fmeSwitch -row 2 -column 1 -sticky "news" -padx 5 -pady 5
 		grid $txtMsg -row 3 -column 1 -sticky "news" -padx 5 -pady 5
 		grid $fmeBtn -row 0 -column 3 -rowspan 4 -sticky "news" -padx 5 -pady 5
+		focus $txtFind
 
 	}
 	

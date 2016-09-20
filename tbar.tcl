@@ -539,6 +539,7 @@ oo::class create ::dApp::tbar {
 			-tooltip [::msgcat::mc "Find In Current Document"] ]
 
 		bind $Priv(SearchText) <Return> [list [self object] Search_Text]
+		bind $Priv(SearchText) <KP_Enter> [list [self object] Search_Text]
 		bind $Priv(SearchText) <Motion> {
 			%W configure -cursor "xterm"
 			if {[%W identify  %x %y] == "Clear.field"} {%W configure -cursor "hand2"}

@@ -627,7 +627,7 @@ package require twidget::ibox
 		grid columnconfigure $fme 0 -weight 1	
 		
 		bind $tree <<ButtonLDClick>> [list [self object] hintbox_dclick  %x %y]
-		bind $tree <Key-Escape> [list [self object] hintbox_hide]
+		bind . <Key-Escape> [list [self object] hintbox_hide]
 		after idle [list focus $wtext]
 		bind $tree <Key-space> [list [self object] hintbox_enter]
 		bind $tree <Return> [list [self object] hintbox_enter]
