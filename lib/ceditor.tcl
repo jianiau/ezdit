@@ -926,7 +926,10 @@ package require twidget::ibox
 		set Priv(opts,lines) $line1
 		incr line1
 		$linebox delete $line1.0  end
-	
+		if {[info patchlevel]=="8.6.5"} {
+			$linebox delete end-2c
+		}
+
 		$linebox configure -state disabled
 		
 		my mark_refresh
