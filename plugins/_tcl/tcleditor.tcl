@@ -130,7 +130,7 @@ oo::class create ::dApp::ceditor::tcl {
 		set w [namespace tail $lastarg]
 		#if {$lasttype == "TCLCMD"} {set w [namespace tail $lastarg]}
 		if {[string index $w 0] == "-"} {set w [namespace tail $lastcmd]}		
-		if {$key == "minus" && [info exists ::tcltk::syndb($lastcmd,$w,arglist)]} {
+		if { $key=="minus" || $key=="KP_Subtract" && [info exists ::tcltk::syndb($lastcmd,$w,arglist)]} {
 			foreach val $::tcltk::syndb($lastcmd,$w,arglist) {
 				if {[string index $val 0] != "-" && [string index $val 0] != "\["} {continue}
 				lappend values $val

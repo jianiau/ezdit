@@ -41,6 +41,8 @@ oo::class create ::dApp::nbe {
 		bind . <Control-plus>  [list [self object] font_incr]
 		bind . <Control-equal>  [list [self object] font_incr]
 		bind . <Control-minus>  [list [self object] font_decr]
+		bind . <Control-KP_Add>  [list [self object] font_incr]
+		bind . <Control-KP_Subtract>  [list [self object] font_decr]
 		# linux mouse wheel
 		bind . <Control-Button-4> [list [self object] font_incr]
 		bind . <Control-Button-5> [list [self object]  font_decr]
