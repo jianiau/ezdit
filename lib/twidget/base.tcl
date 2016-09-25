@@ -42,6 +42,8 @@ namespace eval ::twidget {
 					
 	event delete <<Paste>>
 	event delete <<LineStart>> <Control-Key-a> <Control-Lock-Key-A>
+	event delete <<PrevLine>> <Key-Up>
+	event delete <<NextLine>> <Key-Down>
 
 	event add <<Copy>> <Control-c>
 	event add <<Paste>> <Control-v>

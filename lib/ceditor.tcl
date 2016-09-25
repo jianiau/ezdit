@@ -564,6 +564,7 @@ package require twidget::ibox
 		
 		set wtext $Priv(win,text)
 		place forget $Priv(hintbox,frame)
+		if  {$Priv(hintbox,show)} {after idle [list focus $wtext]}
 		set Priv(hintbox,show) 0
 	
 	}	
@@ -627,12 +628,20 @@ package require twidget::ibox
 		grid columnconfigure $fme 0 -weight 1	
 		
 		bind $tree <<ButtonLDClick>> [list [self object] hintbox_dclick  %x %y]
-		bind . <Key-Escape> [list [self object] hintbox_hide]
+		bind $tree <Key-Escape>  [list [self object] hintbox_hide]
+		bind $wtext <Key-Escape>  [list [self object] hintbox_hide]
 		after idle [list focus $wtext]
 		bind $tree <Key-space> [list [self object] hintbox_enter]
 		bind $tree <Return> [list [self object] hintbox_enter]
 		bind $tree <Key-Tab> [list [self object] hintbox_enter]
 		
+		bind $wtext <Up> [list [self object] hintbox_updown up ]
+		bind $wtext <Down> [list [self object] hintbox_updown down]
+		bind $wtext <Shift-Up> {return}
+		bind $wtext <Shift-Down> {return}
+		bind $wtext <Control-Up> {return}
+		bind $wtext <Control-Down> {return}
+
 		bindtags $tree [list $tree TreeCtrl]
 		
 		return $fme
@@ -746,7 +755,30 @@ package require twidget::ibox
 		
 		after idle [list focus $wtext]
 	}	
+
+	method hintbox_updown {direction} {
+		my variable Priv
+		set wtext $Priv(win,text)
+		set tree $Priv(hintbox,tree)
+
+		if {$Priv(hintbox,show) } {
+			TreeCtrl::SetActiveItem $tree [$tree selection get]
+			if {$direction=="up"} {
+				TreeCtrl::SetActiveItem $tree [TreeCtrl::UpDown $tree active -1]
+			} else {
+				TreeCtrl::SetActiveItem $tree [TreeCtrl::UpDown $tree active +1]
+			}
 	
+		} else {
+			if {$direction=="up"} {
+				event generate $wtext <<PrevLine>>
+			} else {
+				event generate $wtext <<NextLine>>
+			}
+		}
+
+	}
+
 	method hook {cmd args} {
 		return [my hook_$cmd {*}$args]
 	}
@@ -1643,7 +1675,7 @@ package require twidget::ibox
 		$Priv(obj,hook) invoke <Document> "SAVEAS"
 		return $filepath
 		
-	}	
+	}
 	
 	method search {pattern args} {
 		my variable Priv
