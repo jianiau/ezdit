@@ -154,6 +154,7 @@ oo::class create ::dApp::ceditor::tcl {
 
 			set tags [$wtext tag names "insert -2 chars wordstart"]
 			set w [$wtext get "insert -2 chars wordstart" "insert -2 chars wordend"]
+			set w [string trim $w]
 
 			if {$::dApp::Param(syntaxHint)} {
 				
