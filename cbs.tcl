@@ -87,7 +87,7 @@ oo::class create ::dApp::cbs {
 		}
 		return
 	}
-	
+	method Tree_Menu_Popup {X Y} {return}
 	method Item_Menu_Popup {item X Y} {
 		my variable Priv
 
