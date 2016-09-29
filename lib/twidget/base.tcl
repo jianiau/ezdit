@@ -39,7 +39,13 @@ namespace eval ::twidget {
 	bind Text <<Copy>> {}
 	bind Text <<Cut>> {}
 	bind Text <<Paste>> {}
-					
+	bind Text <KP_Enter> {
+		tk::TextInsert %W \n
+		if {[%W cget -autoseparators]} {
+			%W edit separator
+		}
+	}
+
 	event delete <<Paste>>
 	event delete <<LineStart>> <Control-Key-a> <Control-Lock-Key-A>
 	event delete <<PrevLine>> <Key-Up>
