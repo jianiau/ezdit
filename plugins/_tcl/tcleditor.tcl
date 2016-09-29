@@ -160,7 +160,6 @@ oo::class create ::dApp::ceditor::tcl {
 				
 				set arglist [linsert $arglist 0 [namespace tail $lastcmd]]
 				set hint ""
-
 				foreach arg $arglist {
 					if {[info exists ::tcltk::syndb($lastcmd,$arg,hint)] && $::tcltk::syndb($lastcmd,$arg,hint) != ""} {
 						set hint $::tcltk::syndb($lastcmd,$arg,hint)
@@ -176,7 +175,12 @@ oo::class create ::dApp::ceditor::tcl {
 			}
 			if {[info exists ::tcltk::syndb($lastcmd,-$w,type)]} {
 				set arglist $::tcltk::syndb($lastcmd,-$w,arglist)
+				if {$::tcltk::syndb($lastcmd,-$w,hint) != ""} {
+					set hint $::tcltk::syndb($lastcmd,-$w,hint)
+				}
 			}
+
+			if {$hint != ""} {$::dApp::Obj(sbar) put $hint 20000}
 
 			foreach val $arglist {
 				if {[string index $val 0] == "-"} {continue}
