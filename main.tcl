@@ -211,7 +211,10 @@ oo::class create ::dApp::main {
 			i*86* { set mach x86 }
 		}
 		set lib [file join $appPath lib_$os $mach]
-		if {[file exists $lib]} {lappend ::auto_path $lib}
+		if {[file exists $lib]} {
+			lappend ::auto_path $lib
+			set ::auto_path [linsert $::auto_path 0 $lib]
+		}
 
 		my Service_[string totitle $os]_Init
 
